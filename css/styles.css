@@ -548,6 +548,14 @@ body {
 }
 
 /******************************************************************************
+	Tools Area
+*******************************************************************************/
+.tools-area {
+	padding: 60px 0;
+	text-align: center;
+}
+
+/******************************************************************************
 	Footer
 *******************************************************************************/
 .footer-area {
@@ -650,12 +658,67 @@ body {
 }
 
 /******************************************************************************
-	Bootstrap
+	Icons
 *******************************************************************************/
 .icon-big {
 	color: #657b99;
 	font-size: 64px;
 	text-align: center;
+}
+.icon-mediun {
+	color: #657b99;
+	font-size: 54px;
+	text-align: center;
+}
+
+/******************************************************************************
+	Buttons
+*******************************************************************************/
+.btn {
+	font-size: 12px;
+	padding: 10px 30px;
+	color: #fff;
+	-webkit-border-radius: 50px;
+	   -moz-border-radius: 50px;
+	        border-radius: 50px;
+}
+.btn-light {
+	-webkit-transition: all .4s ease;
+	   -moz-transition: all .4s ease;
+	        transition: all .4s ease;
+	background-color: rgba(101, 123, 153, .7);
+}
+.btn-light:hover,
+.btn-light:active,
+.btn-light:focus,
+.btn-light:active:focus,
+.btn-light.active.focus,
+.btn-light.active:focus,
+.btn-light.focus,
+.btn-light:active:focus,
+.btn-light:focus {
+	color: #fff;
+	outline: none;
+	background-color: #657b99;
+}
+.btn-dark {
+	-webkit-transition: all .4s ease;
+	   -moz-transition: all .4s ease;
+	        transition: all .4s ease;
+	background-color: #657b99;
+}
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus,
+.btn-dark:active:focus,
+.btn-dark.active.focus,
+.btn-dark.active:focus,
+.btn-dark.focus,
+.btn-dark:active:focus,
+.btn-dark:focus {
+	color: #fff;
+	outline: none;
+	background-color: rgba(101, 123, 153, .7);
 }
 
 /******************************************************************************
