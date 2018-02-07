@@ -250,11 +250,6 @@ a:active {
 /******************************************************************************
 	Helpful Classes
 *******************************************************************************/
-.align-middle {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 .no-margin { margin: 0!important; }
 .no-padding { padding: 0!important; }
 /* Margin Top */
@@ -532,6 +527,9 @@ body {
 	width: 100%;
 	height: 100%;
 }
+.home-area p {
+	margin-bottom: 25px;
+}
 
 /******************************************************************************
 	About Area
@@ -720,6 +718,27 @@ body {
 	outline: none;
 	background-color: rgba(101, 123, 153, .7);
 }
+.btn-outline {
+	-webkit-transition: all .4s ease;
+	   -moz-transition: all .4s ease;
+	        transition: all .4s ease;
+	border: 1px solid #fff;
+	background-color: transparent;
+}
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:active:focus,
+.btn-outline.active.focus,
+.btn-outline.active:focus,
+.btn-outline.focus,
+.btn-outline:active:focus,
+.btn-outline:focus {
+	color: #657b99;
+	border: 1px solid #fff;
+	outline: none;
+	background-color: #fff;
+}
 
 /******************************************************************************
 	Mobile First Method
@@ -787,11 +806,12 @@ body {
 	.footer-social li {
 		margin: 0 6px;
 	}
-	.align-middle {
-		position: relative;
-		display: block
-		top: 50%;
-		transform: none;
+	.btn-outline {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.btn-outline:last-child {
+		margin-bottom: 0;
 	}
 }
 
