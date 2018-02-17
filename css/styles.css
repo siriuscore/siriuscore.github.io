@@ -452,13 +452,19 @@ body {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-brand:hover {
 	color: rgba(255, 255, 255, .7)!important;
-	background-color: transparent;
+	background-color: transparent!important;
 }
 .navbar-default .navbar-nav > li.active > a,
 .navbar-default .navbar-nav > li.active > a:focus,
 .navbar-default .navbar-nav > li.active > a:hover {
 	color: rgba(255, 255, 255, .7)!important;
-	background-color: transparent;
+	background-color: transparent!important;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+	color: rgba(255, 255, 255, .7)!important;
+	background-color: transparent!important;
 }
 .navbar-default.top-nav-collapse {
 	padding: 18px 0;
@@ -478,13 +484,19 @@ body {
 .navbar-default.top-nav-collapse .navbar-nav > li > a:hover,
 .navbar-default.top-nav-collapse .navbar-brand:hover {
 	color: rgba(101, 123, 153, .7)!important;
-	background-color: transparent;
+	background-color: transparent!important;
 }
 .navbar-default.top-nav-collapse .navbar-nav > li.active > a,
 .navbar-default.top-nav-collapse .navbar-nav > li.active > a:focus,
 .navbar-default.top-nav-collapse .navbar-nav > li.active > a:hover {
 	color: rgba(101, 123, 153, .7)!important;
-	background-color: transparent;
+	background-color: transparent!important;
+}
+.navbar-default.top-nav-collapse .navbar-nav > .open > a,
+.navbar-default.top-nav-collapse .navbar-nav > .open > a:focus,
+.navbar-default.top-nav-collapse .navbar-nav > .open > a:hover {
+	color: rgba(101, 123, 153, .7)!important;
+	background-color: transparent!important;
 }
 .navbar-default .navbar-toggle {
 	border: none;
@@ -503,6 +515,30 @@ body {
 	font-family: "Archivo Black", sans-serif;
 	text-transform: uppercase;
 	color: #fff;
+}
+.dropdown-menu > li > a {
+	font-size: 14px;
+	padding: 5px 20px;
+	-webkit-transition: all .4s ease;
+	   -moz-transition: all .4s ease;
+	        transition: all .4s ease;
+	text-align: right;
+	text-transform: uppercase;
+}
+.navbar-default.top-nav-collapse .dropdown-menu > li > a {
+	color: #657b99;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+	text-decoration: none;
+	color: #657b99;
+	background-color: transparent;
+}
+.navbar-default.top-nav-collapse .dropdown-menu > li > a:focus,
+.navbar-default.top-nav-collapse .dropdown-menu > li > a:hover {
+	text-decoration: none;
+	color: rgba(101, 123, 153, .7)!important;
+	background-color: transparent;
 }
 
 /******************************************************************************

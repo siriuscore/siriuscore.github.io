@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+	<translation id="trlg01">天狼星</translation>
+	<translation id="trlg02">首页</translation>
+	<translation id="trlg03">关于</translation>
+	<translation id="trlg04">特性</translation>
+	<translation id="trlg05">工具</translation>
+	<translation id="trlg06">区块浏览器</translation>
+	<translation id="trlg07">Language</translation>
+	<translation id="trlg08">为智能企业服务的智能合约</translation>
+	<translation id="trlg09">Sirius天狼星是使用量子技术和与权益证明系列共识算法的下一代智能区块链。</translation>
+	<translation id="trlg10">加入Discord</translation>
+	<translation id="trlg11">加入Slack</translation>
+	<translation id="trlg12">加入Telegram</translation>
+	<translation id="trlg13">在开发人员和区块链支持者的代币免费分发中，为了鼓励开发人员的参与，它的共识构建特性包括分散式管理，使区块链参数快速适应不断变化的条件，并通过相互验证的权益证明算法来增强安全性。 Sirius的初始供应量为1亿SIRX，每年的通货膨胀率约为1%，交易确认时间平均为3分钟。其基于EVM的智能合约引擎为分散式应用提供支持，从简单的彩票到生态系统的建立，都能在Sirius智能区块链上运行。</translation>
+	<translation id="trlg14">Sirius从一开始就包含了区块链2.0的特性，以促进分散式应用程序的部署。</translation>
+	<translation id="trlg15">智能合约可用于创建各种应用程序，从简单的分散式数据库一直到分散式的自主组织。在Sirius网络上运行的分散式应用程序由”gas“驱动，这是一种针对处理时间的收费。智能合约由EVM执行，最先出现在以太坊 (Ethereum) 网络上。由于已经有很多语言可以编译成这种环境的字节码，所以从一开始就会有大量的应用和信息可用，这使得用户体验非常的简单易用。</translation>
+	<translation id="trlg16">方便个人用户和企业</translation>
+	<translation id="trlg17">复杂的智能合约编写和安全部署长期困扰着个人用户和企业。Sirius将整合一个智能合约向导程序至Sirius Core钱包来解决这个问题。这将使小型企业无需雇佣更多人员来部署智能合约，并为大型企业节省时间和金钱。这对于用户而言，意味着智能合约的运行掌控在自己手中。</translation>
+	<translation id="trlg18">相互验证的权益证明</translation>
+	<translation id="trlg19">权益证明正快速成为区块链的标准。Sirius在此系列中使用一种新的算法叫做相互验证的权益证明，其中先前的铸造者分享新分块的奖励，从而增强对其他分块的攻击抵抗。</translation>
+	<translation id="trlg20">下载</translation>
+	<translation id="trlg21">Windows 钱包</translation>
+	<translation id="trlg22">Mac OS 钱包</translation>
+	<translation id="trlg23">Linux 钱包</translation>
+	<translation id="trlg24">Docker</translation>
+	<translation id="trlg25">欢迎加入社区！</translation>
+	<translation id="trlg26">Copyright © 2018 Sirius. All rights reserved.</translation>
+</translations>
