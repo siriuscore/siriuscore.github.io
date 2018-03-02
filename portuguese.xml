@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<translations>
+	<translation id="trlg01">Sirius</translation>
+	<translation id="trlg02">Página Inicial</translation>
+	<translation id="trlg03">Sobre</translation>
+	<translation id="trlg04">Características</translation>
+	<translation id="trlg05">Ferramentas</translation>
+	<translation id="trlg06">Explorador de Blocos</translation>
+	<translation id="trlg07">Idioma</translation>
+	<translation id="trlg08">Contratos Inteligentes para Negócios Inteligentes</translation>
+	<translation id="trlg09">Sirius é a nova geração de blockchain que usa a tecnologia quântica com um algoritmo de consenso do tipo Proof-of-Stake.</translation>
+	<translation id="trlg10">Participe no Discord</translation>
+	<translation id="trlg11">Participe no Slack</translation>
+	<translation id="trlg12">Participe no Telegram</translation>
+	<translation id="trlg13">Distribuído gratuitamente entre desenvolvedores e entusiastas de blockchain, para incentivar a participação dos desenvolvedores, suas características de construção de consenso incluem governança descentralizada, permitindo uma rápida adaptação dos parâmetros da blockchain às mudanças, e segurança aprimorada através do algoritmo Proof-of-Stake Mutuo. Sirius apresenta uma oferta inicial de 100 milhões de SIRX, com aproximadamente 1% de inflação por ano, e as transações confirmam, em média, em 3 minutos. O seu motor de contrato inteligente baseado em EVM habilita aplicações descentralizadas, desde loterias simples até a construção de ecossistemas inteiros, todos em execução na blockchain Sirius.</translation>
+	<translation id="trlg14">Sirius inclui os recursos do Blockchain 2.0 desde o início, para facilitar a implantação de aplicativos descentralizados.</translation>
+	<translation id="trlg15">Os contratos inteligentes podem ser usados para criar uma ampla gama de aplicativos, desde simples bancos de dados descentralizados até organizações descentralizadas autônomas. As aplicações descentralizadas, executadas em cima da rede Sirius, são alimentadas por "gas", que é uma taxa para o tempo do processador utilizado. Os contratos inteligentes são executados pelo EVM, visto pela primeira vez na rede Ethereum. Uma vez que já existem muitos idiomas que compilam para bytecode para este ambiente, houve uma infinidade de aplicações e informações disponíveis desde o primeiro início, tornando a experiência do usuário simplificada e acessível.</translation>
+	<translation id="trlg16">Amigável a usuários e empresas.</translation>
+	<translation id="trlg17">A complexidade de escrever e implantar contratos inteligentes seguros foi uma barreira para a sua utilidade por muito tempo. Sirius irá resolver isso integrando um assistente de contrato inteligente no software de carteira Sirius Core. Isso permitirá que as pequenas empresas implementem contratos inteligentes sem ter que contratar profissionais especializados, e para grandes empresas, economizar tempo e dinheiro. Para os usuários em geral, isso significa que o poder dos contratos inteligentes é finalmente colocado em suas mãos.</translation>
+	<translation id="trlg18">Proof-of-Stake Mutuo</translation>
+	<translation id="trlg19">O Proof-of-Stake está rapidamente se tornando o padrão para blockchains. Sirius usa um algoritmo inovador nesta família chamada "Proof-of-Stake Mutuo", onde a recompensa por cunhar um novo bloco é compartilhada entre minters anteriores, aumentando sua resistência a vários ataques.</translation>
+	<translation id="trlg20">Download</translation>
+	<translation id="trlg21">Carteira Windows</translation>
+	<translation id="trlg22">Carteira Mac OS</translation>
+	<translation id="trlg23">Carteira Linux</translation>
+	<translation id="trlg24">Docker</translation>
+	<translation id="trlg25">Junte-se à comunidade!</translation>
+	<translation id="trlg26">Copyright © 2018 Sirius. Todos os direitos reservados.</translation>
+</translations>
