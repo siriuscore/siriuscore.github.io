@@ -573,6 +573,10 @@ body {
 .about-area {
 	padding: 60px 0;
 }
+.buttons {
+	margin-top: 60px;
+	text-align: center;
+}
 
 /******************************************************************************
 	Features Area
