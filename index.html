@@ -82,17 +82,6 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-
-	<!-- Analytics -->
-	<script>
-		(function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
-		;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
-		;c.parentNode.insertBefore(a,c)
-		})(window,document,"galite","script","//cdnjs.cloudflare.com/ajax/libs/ga-lite/2.0.1/ga-lite.min.js");
-
-		galite('create', 'UA-19107724-53', 'auto');
-		galite('send', 'pageview');
-	</script>
 </head>
 <body class="no-scroll" data-spy="scroll" data-target="#navbar-collapse-1" data-offset="86">
 	<!-- Preloader -->
@@ -344,6 +333,7 @@
 				});
 			};
 	</script>
+	<!-- Facebook SDK -->
 	<script>
 		window.fbAsyncInit = function() {
 		FB.init({
@@ -360,6 +350,16 @@
 		js.src = "//connect.facebook.net/en_US/sdk.js";
 		fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<!-- Analytics -->
+	<script>
+		(function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+		;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+		;c.parentNode.insertBefore(a,c)
+		})(window,document,"galite","script","//cdnjs.cloudflare.com/ajax/libs/ga-lite/2.0.1/ga-lite.min.js");
+
+		galite('create', 'UA-19107724-53', 'auto');
+		galite('send', 'pageview');
 	</script>
 </body>
 </html>
