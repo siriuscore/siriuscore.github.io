@@ -74,7 +74,7 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Styles -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/styles.css">
 
 	<!-- IE8 Support -->
@@ -84,13 +84,14 @@
 	<![endif]-->
 
 	<!-- Analytics -->
-	<script async src="//www.googletagmanager.com/gtag/js?id=UA-19107724-53"></script>
 	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+		(function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+		;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+		;c.parentNode.insertBefore(a,c)
+		})(window,document,"galite","script","//cdnjs.cloudflare.com/ajax/libs/ga-lite/2.0.1/ga-lite.min.js");
 
-		gtag('config', 'UA-19107724-53');
+		galite('create', 'UA-19107724-53', 'auto');
+		galite('send', 'pageview');
 	</script>
 </head>
 <body class="no-scroll" data-spy="scroll" data-target="#navbar-collapse-1" data-offset="86">
@@ -283,11 +284,10 @@
 	</a>
 
 	<!-- Scripts -->
-	<script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
-	<script async src="js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/granim/1.1.1/granim.min.js" integrity="sha256-S/BNlR+JRM5WzWvN7Q0X7wbsYnIBs9LCwWU0PBV4g8s=" crossorigin="anonymous"></script>
 	<script async src="js/scripts.js"></script>
-	<script async src="js/granim.min.js"></script>
 	<script>
 		var granimInstance = new Granim({
 			element: '#canvas-basic',
@@ -352,7 +352,7 @@
 		var js, fjs = d.getElementsByTagName(s)[0];
 		if (d.getElementById(id)) {return;}
 		js = d.createElement(s); js.id = id;
-		js.src = "https://connect.facebook.net/en_US/sdk.js";
+		js.src = "//connect.facebook.net/en_US/sdk.js";
 		fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
