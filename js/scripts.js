@@ -8,14 +8,14 @@ jQuery(document).ready(function () {
 		Preloader
 	========================================================================== */
 	$('.preloader').delay(2500).fadeOut('slow');
-	setTimeout(function() {
+	setTimeout(function () {
 		$('body').removeClass('no-scroll');
 	}, 2500);
 
 	/* ==========================================================================
 		Navigation
 	========================================================================== */
-	$(window).on('scroll', function() {
+	$(window).on('scroll', function () {
 		var buttonUp = $('.button-up');
 		var navbarFixedTop = $('.navbar-fixed-top');
 		//Adding background for .navbar after scroll more than 220
@@ -32,7 +32,7 @@ jQuery(document).ready(function () {
 	/* ==========================================================================
 		Close the menu by clicking on the link
 	========================================================================== */
-	$('.navbar-nav li a').on('click', function() {
+	$('.navbar-nav li a').on('click', function () {
 		//Check if window is small enough so dropdown is created
 		var toggle = $('.navbar-toggle').is(':visible');
 		if (toggle) {
@@ -44,7 +44,7 @@ jQuery(document).ready(function () {
 	/* ==========================================================================
 		Smooth Scroll
 	========================================================================== */
-	$('a[href*="#"]:not([href="#"])').on('click', function() {
+	$('a[href*="#"]:not([href="#"])').on('click', function () {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 			var target = $(this.hash);
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -64,4 +64,25 @@ jQuery(document).ready(function () {
 		container: 'body'
 	});
 
+	/* ==========================================================================
+		Cookie Consent
+	========================================================================== */
+	window.addEventListener("load", function () {
+		window.cookieconsent.initialise({
+			"palette": {
+				"popup": {
+					"background": "#ffffff",
+					"text": "#3d4756"
+				},
+				"button": {
+					"background": "#657b99",
+					"text": "#ffffff"
+				}
+			},
+			"position": "bottom-right",
+			"content": {
+				"href": "https://getsirius.io/privacy.html"
+			}
+		})
+	});
 }); // JavaScript Document
