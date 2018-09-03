@@ -227,7 +227,12 @@ b,
 strong {
 	font-weight: 700;
 }
-
+li {
+	margin-bottom:  10px;
+}
+.fa-li {
+	color: #657b99;
+}
 .title {
 	font-size: 20px;
 	margin-bottom: 15px;
@@ -622,6 +627,12 @@ body {
 }
 .content-area {
 	padding: 60px 0;
+}
+.content-area p {
+    margin-bottom: 15px;
+}
+.content-area .title {
+    margin-top: 35px;
 }
 
 /******************************************************************************
