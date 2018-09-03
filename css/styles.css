@@ -599,6 +599,32 @@ body {
 }
 
 /******************************************************************************
+	Pages
+*******************************************************************************/
+.page-title {
+	position: relative;
+	padding: 150px 0;
+	text-align: center;
+	color: rgba(255, 255, 255, .7);
+}
+.page-title canvas {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.page-title h1 {
+    font-size:  22px;
+}
+.content-area {
+	padding: 60px 0;
+}
+
+/******************************************************************************
 	Footer
 *******************************************************************************/
 .footer-area {
@@ -621,6 +647,12 @@ body {
 }
 .footer-bottom p {
 	font-size: 12px;
+}
+.footer-bottom-left {
+	text-align: left;
+}
+.footer-bottom-right {
+	text-align: right;
 }
 
 /******************************************************************************
@@ -857,6 +889,10 @@ body {
 	}
 	.footer-social li {
 		margin: 0 6px;
+	}
+	.footer-bottom-left,
+	.footer-bottom-right {
+		text-align: center;
 	}
 	.btn-outline {
 		display: block;
