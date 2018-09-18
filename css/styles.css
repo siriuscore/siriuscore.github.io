@@ -11,6 +11,8 @@
 *******************************************************************************/
 @import url("//fonts.googleapis.com/css?family=Archivo+Black|Roboto+Mono:400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese");
 @import url("//use.fontawesome.com/releases/v5.2.0/css/all.css");
+@import url("//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css");
+@import url("//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css");
 @import url("//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css");
 
 /******************************************************************************
@@ -364,6 +366,7 @@ body {
 	font-family: "Roboto Mono", monospace;
 	line-height: 1.5;
 	color: #3d4756;
+	overflow-x: hidden;
 }
 
 /******************************************************************************
@@ -592,15 +595,149 @@ body {
 	Features Area
 *******************************************************************************/
 .features-area {
-	padding: 60px 0;
+	padding: 75px 0;
+}
+.features-area p {
+	margin-bottom: 15px;
+}
+.features-area .title {
+    margin-top: 35px;
 }
 
 /******************************************************************************
 	Tools Area
 *******************************************************************************/
 .tools-area {
-	padding: 60px 0;
+	padding: 75px 0;
 	text-align: center;
+}
+
+/******************************************************************************
+	Tools List
+*******************************************************************************/
+.tools-list {
+    padding: 30px;
+    border: 1px solid rgba(220,223,232,.5);
+}
+.tools-list li {
+    display: block;
+    margin: 0;
+    padding: 15px 0;
+    text-align: left;
+    border-bottom: 1px solid #e7e7e7;
+}
+.tools-list li:last-child {
+    padding-bottom: 0;
+    border: medium none;
+}
+.tools-list li:first-child {
+    padding-top: 0;
+}
+.tools-list li span {
+    font-weight: 700;
+    line-height: 24px;
+    float: right;
+    min-width: 200px;
+    height: 24px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    background-color: rgba(101,123,153,.7);
+}
+
+/******************************************************************************
+	Team Area
+*******************************************************************************/
+.team-area {
+	padding: 75px 0;
+	text-align: center;
+}
+.team-area img {
+    border-radius: 100%;
+    padding: 20px 20px 30px 20px;
+}
+.team-area h4 {
+    color: #657b99;
+}
+.team-area p {
+    color: #909090;
+}
+
+/******************************************************************************
+	Team Carousel
+*******************************************************************************/
+.team-area .team-info .owl-nav .owl-prev,
+.team-area .team-info .owl-nav .owl-next {
+	background: transparent none repeat scroll 0 0;
+	color: #657b99;
+	font-size: 30px;
+	height: 40px;
+	left: -70px;
+	line-height: 40px;
+	margin-top: -20px;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 40px;
+	outline: none;
+}
+.team-area .team-info .owl-nav .owl-next {
+	left: auto;
+	right: -70px;
+}
+
+/******************************************************************************
+	Blog Area
+*******************************************************************************/
+.blog-area {
+	padding: 75px 0;
+}
+.blog-item {
+	border-radius: 2px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border: 1px solid rgba(220,223,232,.5);
+}
+.blog-content {
+	padding: 25px 20px;
+}
+.blog-author {
+	color: #909090;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+.blog-title {
+	margin-bottom: 7px;
+}
+.blog-title h4 {
+	font-size: 16px;
+}
+.blog-date {
+    color: #909090;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+.blog-desc p {
+	font-size: 15px;
+	margin-bottom: 21px;
+}
+
+/******************************************************************************
+	Section Title
+*******************************************************************************/
+.section-title {
+	text-align: center;
+}
+.section-title h1 {
+	color: #657b99;
+	font-size: 40px;
+    padding-bottom: 70px;
+}
+.section-title h5 {
+	color: #909090;
+	text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /******************************************************************************
@@ -625,8 +762,12 @@ body {
 .page-title h1 {
     font-size:  22px;
 }
+
+/******************************************************************************
+	Content Area
+*******************************************************************************/
 .content-area {
-	padding: 60px 0;
+	padding: 75px 0;
 }
 .content-area p {
     margin-bottom: 15px;
@@ -836,6 +977,20 @@ body {
 }
 
 /******************************************************************************
+	Image Effects
+*******************************************************************************/
+figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+/******************************************************************************
 	Mobile First Method
 *******************************************************************************/
 
@@ -911,6 +1066,18 @@ body {
 	}
 	.btn-outline:last-child {
 		margin-bottom: 0;
+	}
+	.section-title h1 {
+		font-size: 24px;
+		padding-bottom: 30px;
+	}
+	.team-area .team-info .owl-nav .owl-prev,
+	.team-area .team-info .owl-nav .owl-next {
+		left: -50px;
+	}
+	.team-area .team-info .owl-nav .owl-next {
+		right: -50px;
+		left: auto;
 	}
 }
 

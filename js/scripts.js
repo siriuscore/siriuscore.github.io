@@ -65,6 +65,32 @@ jQuery(document).ready(function () {
 	});
 
 	/* ==========================================================================
+		Team Carousel
+	========================================================================== */
+	$('.team-carousel').owlCarousel({
+		loop: false,
+		margin: 30,
+		nav: true,
+		navText: [
+			"<i class='fa fa-angle-left'></i>",
+			"<i class='fa fa-angle-right'></i>"
+		],
+		dots: false,
+		autoplay: false,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 3
+			},
+			1000: {
+				items: 4
+			}
+		}
+	});
+
+	/* ==========================================================================
 		Cookie Consent
 	========================================================================== */
 	window.addEventListener("load", function () {
