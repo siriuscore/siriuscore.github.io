@@ -724,6 +724,59 @@ body {
 }
 
 /******************************************************************************
+	Subscribe Area
+*******************************************************************************/
+.subscribe-area {
+	padding: 75px 0;
+}
+.subscribe-area .section-title h1 {
+    font-size: 28px;
+}
+.subscribe-alert {
+    margin-top: 20px;
+	text-align: center;
+	font-size: 10px;
+}
+
+/******************************************************************************
+	Forms
+*******************************************************************************/
+.form-control,
+textarea.form-control {
+    height: 50px;
+    padding-left: 22px;
+    -webkit-transition: all .15s;
+         -o-transition: all .15s;
+            transition: all .15s;
+    color: #3d4756;
+    border-radius: 30px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.form-control:focus {
+    border-color: #657b99;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+textarea.form-control {
+    height: 120px;
+    padding-top: 14px;
+    resize: none;
+    border-radius: 30px;
+}
+.form-control::-moz-placeholder {
+    opacity: 1;
+    color: #9f9f9f;
+}
+.form-control:-ms-input-placeholder {
+    color: #9f9f9f;
+}
+.form-control::-webkit-input-placeholder {
+    color: #9f9f9f;
+}
+
+/******************************************************************************
 	Section Title
 *******************************************************************************/
 .section-title {
@@ -902,71 +955,52 @@ body {
 	Buttons
 *******************************************************************************/
 .btn {
-	font-size: 12px;
-	padding: 10px 30px;
-	color: #fff;
-	-webkit-border-radius: 50px;
-	   -moz-border-radius: 50px;
-	        border-radius: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    height: 50px;
+    padding: 15px 42px 15px;
+    -webkit-transition: background-color .3s ease-out;
+         -o-transition: background-color .3s ease-out;
+            transition: background-color .3s ease-out;
+    text-decoration: none;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #657b99;
+    border-radius: 30px;
+    background-color: #657b99;
 }
-.btn-light {
-	-webkit-transition: all .4s ease;
-	   -moz-transition: all .4s ease;
-	        transition: all .4s ease;
-	background-color: rgba(101, 123, 153, .7);
+.btn .fa {
+    font-size: 1.3em;
+    margin-right: 5px;
+    color: #fff;
 }
-.btn-light:hover,
-.btn-light:active,
-.btn-light:focus,
-.btn-light:active:focus,
-.btn-light.active.focus,
-.btn-light.active:focus,
-.btn-light.focus,
-.btn-light:active:focus,
-.btn-light:focus {
-	color: #fff;
-	outline: none;
-	background-color: #657b99;
+.btn:focus {
+    outline: none!important;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
-.btn-dark {
-	-webkit-transition: all .4s ease;
-	   -moz-transition: all .4s ease;
-	        transition: all .4s ease;
-	background-color: #657b99;
+.btn:hover,
+.btn:focus {
+    color: #657b99;
+    border-color: #657b99;
+    background-color: transparent;
 }
-.btn-dark:hover,
-.btn-dark:active,
-.btn-dark:focus,
-.btn-dark:active:focus,
-.btn-dark.active.focus,
-.btn-dark.active:focus,
-.btn-dark.focus,
-.btn-dark:active:focus,
-.btn-dark:focus {
-	color: #fff;
-	outline: none;
-	background-color: rgba(101, 123, 153, .7);
+.btn:hover .fa,
+.btn:focus .fa {
+    color: #657b99;
 }
-.btn-outline {
-	-webkit-transition: all .4s ease;
-	   -moz-transition: all .4s ease;
-	        transition: all .4s ease;
-	border: 1px solid #fff;
-	background-color: transparent;
+.btn-inverse {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
 }
-.btn-outline:hover,
-.btn-outline:active,
-.btn-outline:focus,
-.btn-outline:active:focus,
-.btn-outline.active.focus,
-.btn-outline.active:focus,
-.btn-outline.focus,
-.btn-outline:active:focus,
-.btn-outline:focus {
-	color: #657b99;
-	border: 1px solid #fff;
-	outline: none;
-	background-color: #fff;
+.btn-inverse:hover,
+.btn-inverse:focus {
+    color: #657b99;
+    border-color: #fff;
+    background-color: #fff;
 }
 
 /******************************************************************************
@@ -1060,11 +1094,11 @@ figure:hover img {
 	.footer-bottom-right {
 		text-align: center;
 	}
-	.btn-outline {
+	.btn-inverse {
 		display: block;
 		margin-bottom: 15px;
 	}
-	.btn-outline:last-child {
+	.btn-inverse:last-child {
 		margin-bottom: 0;
 	}
 	.section-title h1 {

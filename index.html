@@ -68,6 +68,8 @@
 	<link rel="dns-prefetch" href="//cdnjs.cloudflare.com/" />
 	<link rel="dns-prefetch" href="//use.fontawesome.com/" />
 	<link rel="dns-prefetch" href="//facebook.net/" />
+	<link rel="dns-prefetch" href="//downloads.mailchimp.com/" />
+	<link rel="dns-prefetch" href="//getsirius.us2.list-manage.com/" />
 
 	<!-- Styles -->
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
@@ -146,9 +148,9 @@
 					<img class="img-responsive center-block" src="images/logo.png" alt="Logo">
 					<h1 class="mb-20 trlg08">Smart Contracts for Smart Businesses</h1>
 					<p class="trlg09">Sirius is a next-generation smart blockchain using quantum technology with a consensus algorithm from the Proof-of-Stake family.</p>
-					<a class="btn btn-outline" href="//discord.getsirius.io" target="_blank"><i class="fab fa-discord"></i> <span class="trlg10">Join Discord</span></a>
-					<a class="btn btn-outline" href="//slack.getsirius.io" target="_blank"><i class="fab fa-slack-hash"></i> <span class="trlg11">Join Slack</span></a>
-					<a class="btn btn-outline" href="//telegram.getsirius.io" target="_blank"><i class="fab fa-telegram-plane"></i> <span class="trlg12">Join Telegram</span></a>
+					<a class="btn btn-inverse" href="//discord.getsirius.io" target="_blank"><i class="fab fa-discord"></i> <span class="trlg10">Join Discord</span></a>
+					<a class="btn btn-inverse" href="//slack.getsirius.io" target="_blank"><i class="fab fa-slack-hash"></i> <span class="trlg11">Join Slack</span></a>
+					<a class="btn btn-inverse" href="//telegram.getsirius.io" target="_blank"><i class="fab fa-telegram-plane"></i> <span class="trlg12">Join Telegram</span></a>
 				</div>
 			</div>
 		</div>
@@ -164,7 +166,7 @@
 
 				<div class="col-sm-12">
 					<div class="buttons">
-						<a class="btn btn-dark" href="/docs/Sirius-Position-Paper.pdf" target="_blank"><i class="fas fa-newspaper"></i> <span class="trlg27">Position Paper</span></a>
+						<a class="btn" href="/docs/Sirius-Position-Paper.pdf" target="_blank"><i class="fas fa-newspaper"></i> <span class="trlg27">Position Paper</span></a>
 					</div>
 				</div>
 			</div>
@@ -302,7 +304,7 @@
 						<i class="fab fa-windows"></i>
 					</div>
 					<p class="title trlg21">Windows Wallet</p>
-					<a class="btn btn-light trlg20" href="//github.com/siriuscore/sirius/releases" target="_blank">Download</a>
+					<a class="btn trlg20" href="//github.com/siriuscore/sirius/releases" target="_blank">Download</a>
 				</div>
 
 				<div class="col-sm-3">
@@ -310,7 +312,7 @@
 						<i class="fab fa-apple"></i>
 					</div>
 					<p class="title trlg22">Mac OS Wallet</p>
-					<a class="btn btn-light trlg20" href="//github.com/siriuscore/sirius/releases" target="_blank">Download</a>
+					<a class="btn trlg20" href="//github.com/siriuscore/sirius/releases" target="_blank">Download</a>
 				</div>
 
 				<div class="col-sm-3">
@@ -318,7 +320,7 @@
 						<i class="fab fa-linux"></i>
 					</div>
 					<p class="title trlg23">Linux Wallet</p>
-					<a class="btn btn-light trlg20" href="//github.com/siriuscore/sirius/releases" target="_blank">Download</a>
+					<a class="btn trlg20" href="//github.com/siriuscore/sirius/releases" target="_blank">Download</a>
 				</div>
 
 				<div class="col-sm-3">
@@ -326,7 +328,7 @@
 						<i class="fab fa-docker"></i>
 					</div>
 					<p class="title trlg24">Docker</p>
-					<a class="btn btn-light trlg20" href="//github.com/siriuscore/docker-sirius-wallet" target="_blank">Download</a>
+					<a class="btn trlg20" href="//github.com/siriuscore/docker-sirius-wallet" target="_blank">Download</a>
 				</div>
 
 				<div class="col-sm-6">
@@ -389,6 +391,35 @@
 		</div>
 	</section>
 
+	<!-- Subscribe Area -->
+	<section class="subscribe-area border-bottom" id="subscribe">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="section-title">
+						<h5>News</h5>
+						<h1>Subscribe Our Newsletter</h1>
+					</div>
+				</div>
+
+                <div class="col-md-6 col-md-offset-3">
+                    <form id="mc-form">
+                        <div class="input-group">
+                            <input id="mc-email" type="email" class="form-control b-primary" placeholder="Email address">
+                            <span class="input-group-btn">
+                                <button class="btn" type="submit">
+                                    <i class="text-white fa fa-envelope"></i>
+                                    <span class="hidden-xs">Subscribe</span>
+                                </button>
+                            </span>
+                        </div>
+                        <div class="subscribe-alert"></div>
+                    </form>
+                </div>
+			</div>
+		</div>
+	</section>
+
 	<!-- Footer -->
 	<footer class="footer-area" id="footer">
 		<div class="footer-top border-bottom">
@@ -446,6 +477,8 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js" integrity="sha256-y0EpKQP2vZljM73+b7xY4dvbYQkHRQXuPqRjc7sjvnA=" crossorigin="anonymous"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.min.js" integrity="sha256-YVu3IT7nGTfxru7MQiv/TgOnffsbPuvXHRXuw1KzxWc=" crossorigin="anonymous"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js" integrity="sha256-LcyfaRZnHuDuTF98e28TxRkYm2XTcaOTCcDZW3kFDCg=" crossorigin="anonymous"></script>
+	<script src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 	<script src="js/scripts.min.js"></script>
 	<script src="js/medium.min.js"></script>
 	<script>
@@ -498,32 +531,6 @@
 					}
 				});
 			};
-	</script>
-	<script>
-		window.fbAsyncInit = function () {
-			FB.init({
-				appId: '1873953449338944',
-				xfbml: true,
-				version: 'v3.1'
-			});
-			FB.AppEvents.logPageView();
-		};
-		(function (d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) { return; }
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/en_US/sdk.js";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
-	<script>
-		$(document).ready(function(){
-			$.getJSON("https://www.cryptopia.co.nz/api/GetMarket/SIRX_BTC", function (data) {
-				var rate = data["Data"]["LastPrice"];
-
-				$(".cryptopia-price").html(rate + " BTC");
-			});
-		});
 	</script>
 </body>
 </html>

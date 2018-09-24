@@ -91,6 +91,22 @@ jQuery(document).ready(function () {
 	});
 
 	/* ==========================================================================
+		ajaxChimp
+	========================================================================== */
+	$('#mc-form').ajaxChimp({
+		url: 'https://getsirius.us2.list-manage.com/subscribe/post?u=159cdeca5d26ac11541be85f6&id=c803840bd0',
+		callback: chimpCallback
+	});
+	function chimpCallback(resp) {
+		if (resp.result === 'success') {
+			$('.subscribe-alert').html('<div class="alert alert-success">' + resp.msg + '</div>').fadeIn(1000);
+			//$('.subscribe-alert').delay(6000).fadeOut();
+		} else if (resp.result === 'error') {
+			$('.subscribe-alert').html('<div class="alert alert-danger">' + resp.msg + '</div>').fadeIn(1000);
+		}
+	}
+
+	/* ==========================================================================
 		Cookie Consent
 	========================================================================== */
 	window.addEventListener("load", function () {
@@ -111,4 +127,44 @@ jQuery(document).ready(function () {
 			}
 		})
 	});
+
+	/* ==========================================================================
+		Mailchimp Popup
+	========================================================================== */
+	window.dojoRequire(["mojo/signup-forms/Loader"], function(L) {
+		L.start({
+			"baseUrl": "mc.us2.list-manage.com",
+			"uuid": "159cdeca5d26ac11541be85f6",
+			"lid": "c803840bd0",
+			"uniqueMethods": true
+		})
+	})
+
+	/* ==========================================================================
+		Cryptopia
+	========================================================================== */
+	$.getJSON("https://www.cryptopia.co.nz/api/GetMarket/SIRX_BTC", function (data) {
+		var rate = data["Data"]["LastPrice"];
+
+		$(".cryptopia-price").html(rate + " BTC");
+	});
+
+	/* ==========================================================================
+		Facebook SDK
+	========================================================================== */
+	window.fbAsyncInit = function () {
+		FB.init({
+			appId: '1873953449338944',
+			xfbml: true,
+			version: 'v3.1'
+		});
+		FB.AppEvents.logPageView();
+	};
+	(function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) { return; }
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
 }); // JavaScript Document
