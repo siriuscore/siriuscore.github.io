@@ -29,7 +29,7 @@ $(function () {
                     Math.min(trimmedString.length, trimmedString.lastIndexOf(" "))
                 );
                 output += '<div class="blog-desc"><p>' + trimmedString + "...</p></div>";
-                output += '<a class="btn btn-block btn-light" href="' + item.link + '"  data-i18n="btn.readmore" target="_blank"></a>';
+                output += '<a class="btn btn-block btn-light" href="' + item.link + '" data-i18n="btn.readmore" target="_blank">Read More</a>';
                 output += "</div></div></div>";
                 return k < 2;
             });
