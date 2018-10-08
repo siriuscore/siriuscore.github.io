@@ -10,7 +10,10 @@
 	Import Basic Files
 *******************************************************************************/
 @import url("//fonts.googleapis.com/css?family=Archivo+Black|Roboto+Mono:400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese");
+<<<<<<< HEAD
 @import url("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css");
+=======
+>>>>>>> 60de6151df83e52c175db46d64c4b1a061d65781
 @import url("//use.fontawesome.com/releases/v5.3.1/css/all.css");
 @import url("//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css");
 @import url("//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css");
