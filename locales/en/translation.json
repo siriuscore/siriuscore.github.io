@@ -1,0 +1,80 @@
+{
+	"nav": {
+		"sirius": "Sirius",
+		"home": "Home",
+		"about": "About",
+		"features": "Features",
+		"team": "Team",
+		"tools": "Tools",
+		"blog": "Blog",
+		"explorer": "Explorer",
+		"language": "Language"
+	},
+	"shome": {
+		"title": "Smart Contracts for Smart Businesses",
+		"subtitle": "Sirius is a next-generation smart blockchain using quantum technology with a consensus algorithm from the Proof-of-Stake family."
+	},
+	"sabout": {
+		"desc": "Distributed for free among developers and blockchain enthusiasts, to encourage developer participation, its consensus-building features include decentralized governance, enabling fast adaptation of blockchain parameters to changing conditions, and enhanced security through the Mutualized Proof-of-Stake algorithm. Sirius features an initial supply of 100 million SIRX, with approximately 1% inflation per year, and transactions confirm on average within 3 minutes. Its EVM-based smart contract engine powers decentralized applications, from simple lotteries to the building of whole ecosystems, all running on the Sirius smart blockchain."
+	},
+	"sfeatures": {
+		"title1": "Sirius includes blockchain 2.0 features from the outset, to facilitate the deployment of decentralized applications.",
+		"subtitle1": "Smart contracts can be used to create a wide array of applications, ranging from simple decentralized databases all the way to decentralized autonomous organisations. The decentralized applications, run on top of the Sirius network, are powered by ‘gas’, which is a fee for the processor time used. The smart contracts are executed by the EVM, first seen on the Ethereum network. Since there are already many languages that compile to bytecode for this environment, there's been a plethora of applications and information available from day one, making the user experience streamlined and accessible.",
+		"title2": "User and business-friendly",
+		"subtitle2": "The complexity of writing and deploying secure smart contracts has been a barrier to their usefulness for too long. Sirius will solve this by integrating a smart contract wizard into the Sirius Core wallet software. This will make it possible for small businesses to deploy smart contracts without having to hire more hands, and for larger businesses to save time and money. For users in general it will mean that the power of smart contracts is finally put in their hands.",
+		"title3": "Mutualized Proof-of-stake",
+		"subtitle3": "Proof-of-stake is fast becoming the standard for blockchains. Sirius uses a novel algorithm in this family called Mutualized Proof-of-stake, where the reward for minting a new block is shared among previous minters, increasing its resistance to various attacks."
+	},
+	"steam": {
+		"mtitle": "Team",
+		"msubtitle": "Main Team",
+		"etitle": "Extended Team",
+		"mrtitle": "Marketing Team",
+		"member1": "Andreas Lepidis",
+		"member2": "Iolar Demartini Junior",
+		"member3": "Mischa Wiedouw",
+		"member4": "Axel Karlsson",
+		"member5": "Ryan Loomba",
+		"member6": "Mara McLean",
+		"member7": "David Clutter",
+		"member8": "Nicholas Xie",
+		"member9": "Pieter Botha",
+		"member10": "KJ",
+		"member11": "Joseph Stuhlman"
+	},
+	"stools": {
+		"title": "Tools",
+		"dsubtitle": "Downloads",
+		"windows": "Windows Wallet",
+		"mac": "Mac OS Wallet",
+		"linux": "Linux Wallet",
+		"docker": "Docker",
+		"esubtitle": "Exchanges",
+		"msubtitle": "Market Cap"
+	},
+	"sblog": {
+		"title": "Blog",
+		"subtitle": "Latest News"
+	},
+	"ssubscribe": {
+		"title": "Subscribe To Our Newsletter",
+		"email": "Enter your email..."
+	},
+	"footer": {
+        "subtitle": "Join the community!",
+        "copy": "Copyright © 2018 Sirius. All rights reserved.",
+		"links1": "Privacy Policy"
+	},
+	"btn": {
+		"discord": "Join Discord",
+		"slack": "Join Slack",
+		"telegram": "Join Telegram",
+		"positionpaper": "Position Paper",
+		"download": "Download",
+		"readmore": "Read More",
+		"subscribe": "Subscribe"
+	},
+	"page-privacy": {
+		"title": "Privacy Policy"
+	}
+}

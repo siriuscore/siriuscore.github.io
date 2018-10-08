@@ -7,14 +7,14 @@ $(function () {
         if (response.status == "ok") {
             var output = "";
             $.each(response.items, function (k, item) {
-                output += '<div class="col-sm-4">';
+                output += '<div class="col-md-4">';
                 output += '<div class="blog-item">';
                 var tagIndex = item.description.indexOf("<img"); // Find where the img tag starts
                 var srcIndex = item.description.substring(tagIndex).indexOf("src=") + tagIndex; // Find where the src attribute starts
                 var srcStart = srcIndex + 5; // Find where the actual image URL starts; 5 for the length of 'src="'
                 var srcEnd = item.description.substring(srcStart).indexOf('"') + srcStart; // Find where the URL ends
                 var src = item.description.substring(srcStart, srcEnd); // Extract just the URL
-                output += '<div class="blog-img"><a href="' + item.link + '" target="_blank"><figure><img class="img-responsive" src="' + src + '"></figure></a></div>';
+                output += '<div class="blog-img"><a href="' + item.link + '" target="_blank"><figure><img class="img-fluid" src="' + src + '"></figure></a></div>';
                 output += '<div class="blog-content">';
                 output += '<div class="blog-author">By ' + item.author + "</div>";
                 output += '<div class="blog-title"><h4><a href="' + item.link + '"  target="_blank">' + item.title + "</a></h4></div>";
@@ -29,7 +29,7 @@ $(function () {
                     Math.min(trimmedString.length, trimmedString.lastIndexOf(" "))
                 );
                 output += '<div class="blog-desc"><p>' + trimmedString + "...</p></div>";
-                output += '<a class="btn btn-block btn-light" href="' + item.link + '" target="_blank">Read More</a>';
+                output += '<a class="btn btn-block btn-light" href="' + item.link + '"  data-i18n="btn.readmore" target="_blank"></a>';
                 output += "</div></div></div>";
                 return k < 2;
             });

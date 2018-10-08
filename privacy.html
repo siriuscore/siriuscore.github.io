@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+<html lang="en" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,7 +7,7 @@
 	<meta http-equiv="cache-control" content="cache" />
 	<meta http-equiv="revisit-after" content="1 day" />
 	<title>Privacy Policy | Sirius - Smart Contracts for Smart Businesses</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<meta name="description" content="Sirius is a next-generation smart blockchain using quantum technology with a consensus algorithm from the Proof-of-Stake family."/>
 	<meta name="keywords" content="sirius, sirx, ethereum, eth, qtum, bitcoin, btc, proof of stake, blockchain, explorer, quantum technology, technology, wallet, crypto, currency, cryptocurrency, smart contracts, smart ,contracts, smart businesses, businesses, next generation, deployment, decentralized applications, decentralized, applications, business friendly">
 	<meta name="author" content="Sirius Team" />
@@ -69,7 +69,6 @@
 	<link rel="dns-prefetch" href="//facebook.net/" />
 
 	<!-- Styles -->
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
 	<link rel="stylesheet" href="css/styles.min.css" />
 
 	<!-- IE8 Support -->
@@ -90,46 +89,54 @@
 		galite('send', 'pageview');
 	</script>
 </head>
-<body class="no-scroll" data-spy="scroll" data-target="#navbar-collapse-1" data-offset="86">
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
 	<!-- Preloader -->
-	<div class="preloader">
-		<div class="preloader-inner">
-			<div class="preloader-icon">
-				<span></span>
-				<span></span>
-			</div>
-		</div>
+    <div class="preloader">
+        <div class="preloader-spinner"></div>
 	</div>
 
 	<!-- Navigation -->
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-expand-md">
 		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand trlg01" href="index.html">Sirius</a>
-			</div>
+			<a class="navbar-brand" href="index.html#home" data-i18n="nav.sirius"></a>
 
-			<div class="collapse navbar-collapse" id="navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a class="trlg02" href="index.html">Home</a></li>
-					<li><a class="trlg03" href="index.html#about">About</a></li>
-					<li><a class="trlg04" href="index.html#features">Features</a></li>
-					<li><a class="trlgm04" href="index.html#team">Team</a></li>
-					<li><a class="trlg05" href="index.html#tools">Tools</a></li>
-					<li><a class="trlgm06" href="index.html#blog">Blog</a></li>
-					<li><a class="trlg06" href="//siriusexplorer.io" target="_blank">Explorer</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="trlg07">Language</span> <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a class="chinese" id="chinese" href="javascript:;" onclick="testch(this.id)">中文</a></li>
-							<li><a class="english" id="english" href="javascript:;" onclick="testch(this.id)">English</a></li>
-							<li><a class="portuguese" id="portuguese" href="javascript:;" onclick="testch(this.id)">Português</a></li>
-						</ul>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="main-navbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#home" data-i18n="nav.home"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#about" data-i18n="nav.about"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#features" data-i18n="nav.features"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#team" data-i18n="nav.team"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#tools" data-i18n="nav.tools"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#blog" data-i18n="nav.blog"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="//siriusexplorer.io" data-i18n="nav.explorer" target="_blank"></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-item nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-i18n="nav.language"></a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item lang" href="?lng=en" data-lang="en">
+								<span class="flag-icon flag-icon-us"></span> English
+							</a>
+							<a class="dropdown-item lang" href="?lng=pt-BR" data-lang="pt-BR">
+								<span class="flag-icon flag-icon-br"></span> Português
+							</a>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -138,11 +145,11 @@
 
 	<!-- Page Title -->
 	<section class="page-title">
-		<canvas id="canvas-basic"></canvas>
+		<div id="particles-js"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
-					<h1 class="trlg28">Privacy Policy</h1>
+				<div class="col-md-12">
+					<h1 data-i18n="page-privacy.title">Privacy Policy</h1>
 				</div>
 			</div>
 		</div>
@@ -152,60 +159,127 @@
 	<section class="content-area border-bottom">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
-					<p class="trlg29">This page informs you of our policies regarding the collection, use and disclosure of personal information we receive from users of our site (https://getsirius.io). We use your personal information to better understand your usage of the site, and to collect traffic statistics.</p>
-					<p class="trlg30">By using the site, you agree to the collection and use of information in accordance with this policy.</p>
+				<div class="col-md-12">
+					<p>This page informs you of our policies regarding the collection, use and disclosure of personal information we receive from users of our site (https://getsirius.io). We use your personal information to better understand your usage of the site, and to collect traffic statistics.</p>
 
-					<h3 class="title trlg31">Log Data</h3>
-					<p class="trlg33">Like many site operators, we collect information that your browser sends whenever you visit our site ("Log Data"). This Log Data may include information such as your computer's Internet Protocol ("IP") address (with replaced last byte), browser type, browser version, the pages of our site that you visit, the time and date of your visit, the time spent on those pages and other statistics.</p>
+					<p>By using the site, you agree to the collection and use of information in accordance with this policy.</p>
 
-					<h3 class="title trlg33">Cookies</h3>
-					<p class="trlg34">Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our site.</p>
-					<p class="trlg35">We use cookies for the following purposes:</p>
+					<h3 class="title">Log Data</h3>
+
+					<p>Like many site operators, we collect information that your browser sends whenever you visit our site ("Log Data"). This Log Data may include information such as your computer's Internet Protocol ("IP") address (with replaced last byte), browser type, browser version, the pages of our site that you visit, the time and date of your visit, the time spent on those pages and other statistics.</p>
+
+					<h3 class="title">Cookies</h3>
+
+					<p>Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our site.</p>
+
+					<p>We use cookies for the following purposes:</p>
+
 					<ul class="fa-ul">
-						<li><span class="fa-li" ><i class="fas fa-chevron-right"></i></span><span class="trlg36">To keep track of whether you have pressed the "OK" button on the cookie disclaimer, so we don't bother you with the notification if you have.</span></li>
-						<li><span class="fa-li" ><i class="fas fa-chevron-right"></i></span><span class="trlg37">Our Analytics software (Google Analytics) uses cookies to measure and better understand user-interactions on our Site. You can read more about how Google Analytics uses cookies</span> <a href="//developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage" target="_blank"><span class="trlg37a">here</span></a>.</li>
+						<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>To keep track of whether you have pressed the "OK" button on the cookie disclaimer, so we don't bother you with the notification if you have.</li>
+						<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span>Our Analytics software (Google Analytics) uses cookies to measure and better understand user-interactions on our Site. You can read more about how Google Analytics uses cookies <a href="//developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage" target="_blank">here</a>.</li>
 					</ul>
 
-					<h3 class="title trlg38">Google Analytics</h3>
-					<p class="trlg39">We use a third-party JavaScript plug-in provided by Google called "Google Analytics" to provide us with useful traffic statistics and to better understand how you use our site. We do not have direct access to the information obtained from Google Analytics, but Google provides us with a summary through their dashboard.</p>
-					<p class="trlg40">We may share the information obtained from Google Analytics with business partners who are interested in advertising on our website. The information shared with these business partners will not contain any personally identifying information (Google does not provide us with direct access to the data and therefore we cannot see this information).</p>
-					<p><span class="trlg41">You can opt-out of having your information collected by Google Analytics by downloading the Google Analytics opt-out browser add-on provided by Google. This will prevent your information being used by Google Analytics. Doing this will not affect your ability to use our Site in any way. You can download the opt-out browser add-on</span> <a href="//tools.google.com/dlpage/gaoptout" target="_blank"><span class="trlg41a">here</span></a>. <span class="trlg41b">We also honor the Do Not Track header and will not track visitors who have Do Not Track switched on.</span></p>
+					<h3 class="title">Google Analytics</h3>
 
-					<h3 class="title trlg42">Changes to this Privacy Policy</h3>
-					<p class="trlg43">We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on the Site. You are advised to review this privacy policy periodically for any changes.</p>
-					<p class="trlg44">This Privacy Policy was last updated: 3th September, 2018.</p>
+					<p>We use a third-party JavaScript plug-in provided by Google called "Google Analytics" to provide us with useful traffic statistics and to better understand how you use our site. We do not have direct access to the information obtained from Google Analytics, but Google provides us with a summary through their dashboard.</p>
 
-					<h3 class="title trlg45">Contact Us</h3>
-					<p><span class="trlg46">If you have any questions about our privacy policy, or how your data is being collected and processed, please e-mail</span> <a href="mailto:hello@getsirius.io?Subject=Privacy">hello@getsirius.io</a>.</p>
+					<p>We may share the information obtained from Google Analytics with business partners who are interested in advertising on our website. The information shared with these business partners will not contain any personally identifying information (Google does not provide us with direct access to the data and therefore we cannot see this information).</p>
+
+					<p>You can opt-out of having your information collected by Google Analytics by downloading the Google Analytics opt-out browser add-on provided by Google. This will prevent your information being used by Google Analytics. Doing this will not affect your ability to use our Site in any way. You can download the opt-out browser add-on <a href="//tools.google.com/dlpage/gaoptout" target="_blank">here</a>. We also honor the Do Not Track header and will not track visitors who have Do Not Track switched on.</p>
+
+					<h3 class="title">Changes to this Privacy Policy</h3>
+
+					<p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on the Site. You are advised to review this privacy policy periodically for any changes.</p>
+
+					<p>This Privacy Policy was last updated: 3th September, 2018.</p>
+
+					<h3 class="title">Contact Us</h3>
+
+					<p>If you have any questions about our privacy policy, or how your data is being collected and processed, please e-mail <a href="mailto:hello@getsirius.io?Subject=Privacy">hello@getsirius.io</a>.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Footer -->
-	<footer class="footer-area" id="footer-area">
+	<footer class="footer-area" id="footer">
 		<div class="footer-top border-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
-						<img class="img-responsive center-block" src="images/footer-logo.png" alt="Logo">
-						<p class="trlg25">Join the community!</p>
+					<div class="col-md-12">
+						<img class="img-fluid d-block mx-auto" src="images/footer-logo.png" alt="Logo">
+						<p data-i18n="footer.subtitle"></p>
 						<ul class="footer-social">
-							<li class="email"><a href="mailto:hello@getsirius.io" target="_blank" data-toggle="tooltip" title="hello@getsirius.io"><i class="fas fa-envelope-open"></i></a></li>
-							<li class="discord"><a href="//medium.com/@SiriusProject" target="_blank" data-toggle="tooltip" title="Medium"><i class="fab fa-medium-m"></i></a></li>
-							<li class="discord"><a href="//discord.getsirius.io" target="_blank" data-toggle="tooltip" title="Discord"><i class="fab fa-discord"></i></a></li>
-							<li class="slack"><a href="//slack.getsirius.io" target="_blank" data-toggle="tooltip" title="Slack Invite"><i class="fab fa-slack-hash"></i></a></li>
-							<li class="telegram"><a href="//telegram.getsirius.io" target="_blank" data-toggle="tooltip" title="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
-							<li class="twitter"><a href="//twitter.com/SirxProject" target="_blank" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-							<li class="facebook"><a href="//facebook.com/SirxProject" target="_blank" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-							<li class="instagram"><a href="//instagram.com/sirxproject" target="_blank" data-toggle="tooltip" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-							<li class="linkedin"><a href="//linkedin.com/company/siriusproject" target="_blank" data-toggle="tooltip" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-							<li class="youtube"><a href="//youtube.com/channel/UCgc5vOyZC-mWZvXC84RUfhA" target="_blank" data-toggle="tooltip" title="YouTube"><i class="fab fa-youtube"></i></a></li>
-							<li class="reddit"><a href="//reddit.com/r/SiriusProject" target="_blank" data-toggle="tooltip" title="Reddit"><i class="fab fa-reddit-alien"></i></a></li>
-							<li class="github"><a href="//github.com/SiriusCore" target="_blank" data-toggle="tooltip" title="GitHub"><i class="fab fa-github-alt"></i></a></li>
-							<li class="google-plus"><a href="//plus.google.com/103306205967301559403" target="_blank" data-toggle="tooltip" title="Google +"><i class="fab fa-google-plus-g"></i></a></li>
-							<li class="btc"><a href="//bitcointalk.org/index.php?topic=2609407" target="_blank" data-toggle="tooltip" title="Bitcoin Talk"><i class="fab fa-btc"></i></a></li>
+							<li class="email">
+								<a href="mailto:hello@getsirius.io" target="_blank" data-toggle="tooltip" title="hello@getsirius.io">
+									<i class="fas fa-envelope-open"></i>
+								</a>
+							</li>
+							<li class="discord">
+								<a href="//medium.com/@SiriusProject" target="_blank" data-toggle="tooltip" title="Medium">
+									<i class="fab fa-medium-m"></i>
+								</a>
+							</li>
+							<li class="discord">
+								<a href="//discord.getsirius.io" target="_blank" data-toggle="tooltip" title="Discord">
+									<i class="fab fa-discord"></i>
+								</a>
+							</li>
+							<li class="slack">
+								<a href="//slack.getsirius.io" target="_blank" data-toggle="tooltip" title="Slack Invite">
+									<i class="fab fa-slack-hash"></i>
+								</a>
+							</li>
+							<li class="telegram">
+								<a href="//telegram.getsirius.io" target="_blank" data-toggle="tooltip" title="Telegram">
+									<i class="fab fa-telegram-plane"></i>
+								</a>
+							</li>
+							<li class="twitter">
+								<a href="//twitter.com/SirxProject" target="_blank" data-toggle="tooltip" title="Twitter">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li class="facebook">
+								<a href="//facebook.com/SirxProject" target="_blank" data-toggle="tooltip" title="Facebook">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="instagram">
+								<a href="//instagram.com/sirxproject" target="_blank" data-toggle="tooltip" title="Instagram">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+							<li class="linkedin">
+								<a href="//linkedin.com/company/siriusproject" target="_blank" data-toggle="tooltip" title="LinkedIn">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+							<li class="youtube">
+								<a href="//youtube.com/channel/UCgc5vOyZC-mWZvXC84RUfhA" target="_blank" data-toggle="tooltip" title="YouTube">
+									<i class="fab fa-youtube"></i>
+								</a>
+							</li>
+							<li class="reddit">
+								<a href="//reddit.com/r/SiriusProject" target="_blank" data-toggle="tooltip" title="Reddit">
+									<i class="fab fa-reddit-alien"></i>
+								</a>
+							</li>
+							<li class="github">
+								<a href="//github.com/SiriusCore" target="_blank" data-toggle="tooltip" title="GitHub">
+									<i class="fab fa-github-alt"></i>
+								</a>
+							</li>
+							<li class="google-plus">
+								<a href="//plus.google.com/103306205967301559403" target="_blank" data-toggle="tooltip" title="Google +">
+									<i class="fab fa-google-plus-g"></i>
+								</a>
+							</li>
+							<li class="btc">
+								<a href="//bitcointalk.org/index.php?topic=2609407" target="_blank" data-toggle="tooltip" title="Bitcoin Talk">
+									<i class="fab fa-btc"></i>
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -215,12 +289,12 @@
 		<div class="footer-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6">
-						<p class="footer-bottom-left trlg26">Copyright &copy; 2018 Sirius. All rights reserved.</p>
+					<div class="col-md-6">
+						<p class="footer-bottom-left" data-i18n="footer.copy"></p>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-md-6">
 						<p class="footer-bottom-right">
-							<a class="trlg28" href="privacy.html">Privacy Policy</a>
+							<a href="privacy.html" data-i18n="footer.links1"></a>
 						</p>
 					</div>
 				</div>
@@ -229,83 +303,28 @@
 	</footer>
 
 	<!-- Go Top Button -->
-	<a href="#home-area" class="button-up">
-		<span class="fas fa-arrow-up"></span>
-	</a>
+	<div class="back-to-top">
+        <i class="fas fa-rocket"></i>
+    </div>
 
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/granim/1.1.1/granim.min.js" integrity="sha256-S/BNlR+JRM5WzWvN7Q0X7wbsYnIBs9LCwWU0PBV4g8s=" crossorigin="anonymous"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha256-+u54FaX9J+k40eAcg5K2YzICSQjrEYBI9gju5nE3HfY=" crossorigin="anonymous"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js" integrity="sha256-y0EpKQP2vZljM73+b7xY4dvbYQkHRQXuPqRjc7sjvnA=" crossorigin="anonymous"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.min.js" integrity="sha256-YVu3IT7nGTfxru7MQiv/TgOnffsbPuvXHRXuw1KzxWc=" crossorigin="anonymous"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js" integrity="sha256-LcyfaRZnHuDuTF98e28TxRkYm2XTcaOTCcDZW3kFDCg=" crossorigin="anonymous"></script>
+	<script src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+	<script src="//unpkg.com/i18next@11.9.0/i18next.min.js" integrity="sha384-JSjvILTVa9oeYUR+PPxeByKTOKFrIuwNVD+vVidJaLXtuw6kDGZkadWfwPNdn8CS"
+	 crossorigin="anonymous"></script>
+	<script src="//unpkg.com/jquery-i18next@1.2.1/jquery-i18next.min.js" integrity="sha384-fLTSt6zHOb152KeFkj7kSiXdkyjKf6fjk5bdzWYLDPDo9evwd9PVs3TKoYYaaxdl"
+	 crossorigin="anonymous"></script>
+	<script src="//unpkg.com/i18next-xhr-backend@1.5.1/i18nextXHRBackend.min.js" integrity="sha384-Bs2NZmsN+ceH5DyFA3YFTsqv6rAMQaOBSdNs0JHDBH1MCqk/7qmXMouRhsPZ3LkV"
+	 crossorigin="anonymous"></script>
+	<script src="//unpkg.com/i18next-browser-languagedetector@2.2.3/i18nextBrowserLanguageDetector.min.js" integrity="sha384-30n/rX6nUECMWreC6ez5PnJ5yjSur3Xeli/KcRvflDY/LyZYrGGyhjUApGVZyYA3"
+	 crossorigin="anonymous"></script>
 	<script src="js/scripts.min.js"></script>
-	<script>
-		var granimInstance = new Granim({
-			element: '#canvas-basic',
-			name: 'basic-gradient',
-			elToSetClassOn: '.page-title',
-			direction: 'diagonal',
-			opacity: [1, 1],
-			isPausedWhenNotInView: true,
-			states : {
-				"default-state": {
-					gradients: [
-						['#C0C0C0', '#657B99'],
-						['#334C77', '#C0C0C0'],
-						['#657B99', '#334C77']
-					]
-				}
-			}
-		});
-	</script>
-	<script>
-		$(document).ready(function() {
-			if(localStorage.getItem('language') != null) {
-				language = localStorage.getItem('language');
-				$.ajax({
-					url: language + '.xml',
-					success: function(xml) {
-						$(xml).find('translation').each(function(){
-							var id = $(this).attr('id');
-							var text = $(this).text();
-							$("." + id).html(text);
-						});
-					}
-				});
-			}
-		});
-
-		function testch (id) {
-				localStorage.setItem('language', id);
-				language = id
-				$.ajax({
-					url: language + '.xml',
-					success: function(xml) {
-						$(xml).find('translation').each(function(){
-							var id = $(this).attr('id');
-							var text = $(this).text();
-							$("." + id).html(text);
-						});
-					}
-				});
-			};
-	</script>
-	<script>
-		window.fbAsyncInit = function () {
-			FB.init({
-				appId: '1873953449338944',
-				xfbml: true,
-				version: 'v3.1'
-			});
-			FB.AppEvents.logPageView();
-		};
-		(function (d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) { return; }
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/en_US/sdk.js";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
 </body>
 </html>
