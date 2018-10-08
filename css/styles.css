@@ -1184,6 +1184,10 @@ textarea.form-control {
     border-color: #fff;
     background-color: #fff;
 }
+.btn-small {
+    padding: 10px 26px;
+    height: auto;
+}
 
 /******************************************************************************
 	Cookie Consent
@@ -1252,6 +1256,9 @@ figure:hover img {
 		color: rgba(101,123,153,.7);
 		background-color: #f8f9fa;
     }
+	.home-area {
+		height: 110vh;
+	}
 	.home-area img {
 		width: 180px;
 	}
