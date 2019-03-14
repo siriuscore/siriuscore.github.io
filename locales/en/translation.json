@@ -12,18 +12,16 @@
 	},
 	"shome": {
 		"title": "Smart Contracts for Smart Businesses",
-		"subtitle": "Sirius is a next-generation smart blockchain using quantum technology with a consensus algorithm from the Proof-of-Stake family."
+		"subtitle": "Sirius is a smart contract platform based on Bitcoin and Ethereum's EVM. To encourage developer participation, Sirius is distributed for free among developers and blockchain enthusiasts."
 	},
 	"sabout": {
-		"desc": "Distributed for free among developers and blockchain enthusiasts, to encourage developer participation, its consensus-building features include decentralized governance, enabling fast adaptation of blockchain parameters to changing conditions, and enhanced security through the Mutualized Proof-of-Stake algorithm. Sirius features an initial supply of 100 million SIRX, with approximately 1% inflation per year, and transactions confirm on average within 3 minutes. Its EVM-based smart contract engine powers decentralized applications, from simple lotteries to the building of whole ecosystems, all running on the Sirius smart blockchain."
+		"desc": "Sirius is a smart contract platform based on Bitcoin and Ethereum's EVM. To encourage developer participation, Sirius is distributed for free among developers and blockchain enthusiasts. Sirius features an initial supply of 100 million SIRX, with approximately 1% inflation per year. The technical white paper describing its new Reputation-Weighted Proof-of-Stake (RWPoS) algorithm will soon be released, which will boost transaction speed to 10000 TPS and beyond with a minimized degradation of decentralization and make 51% attacks infeasible."
 	},
 	"sfeatures": {
 		"title1": "Sirius includes blockchain 2.0 features from the outset, to facilitate the deployment of decentralized applications.",
 		"subtitle1": "Smart contracts can be used to create a wide array of applications, ranging from simple decentralized databases all the way to decentralized autonomous organisations. The decentralized applications, run on top of the Sirius network, are powered by ‘gas’, which is a fee for the processor time used. The smart contracts are executed by the EVM, first seen on the Ethereum network. Since there are already many languages that compile to bytecode for this environment, there's been a plethora of applications and information available from day one, making the user experience streamlined and accessible.",
 		"title2": "User and business-friendly",
-		"subtitle2": "The complexity of writing and deploying secure smart contracts has been a barrier to their usefulness for too long. Sirius will solve this by integrating a smart contract wizard into the Sirius Core wallet software. This will make it possible for small businesses to deploy smart contracts without having to hire more hands, and for larger businesses to save time and money. For users in general it will mean that the power of smart contracts is finally put in their hands.",
-		"title3": "Mutualized Proof-of-stake",
-		"subtitle3": "Proof-of-stake is fast becoming the standard for blockchains. Sirius uses a novel algorithm in this family called Mutualized Proof-of-stake, where the reward for minting a new block is shared among previous minters, increasing its resistance to various attacks."
+		"subtitle2": "The complexity of writing and deploying secure smart contracts has been a barrier to their usefulness for too long. Sirius will solve this by integrating a smart contract wizard into the Sirius Core wallet software. This will make it possible for small businesses to deploy smart contracts without having to hire more hands, and for larger businesses to save time and money. For users in general it will mean that the power of smart contracts is finally put in their hands."
 	},
 	"steam": {
 		"mtitle": "Team",
@@ -61,8 +59,8 @@
 		"email": "Enter your email..."
 	},
 	"footer": {
-        "subtitle": "Join the community!",
-        "copy": "Copyright © 2018 Sirius. All rights reserved.",
+		"subtitle": "Join the community!",
+		"copy": "Copyright © 2018 Sirius. All rights reserved.",
 		"links1": "Privacy Policy"
 	},
 	"btn": {
