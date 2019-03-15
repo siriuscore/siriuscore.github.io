@@ -1,0 +1,77 @@
+{
+	"nav": {
+		"sirius": "Sirius",
+		"home": "Trang Chủ",
+		"about": "Giới Thiệu",
+		"features": "Tính Năng",
+		"team": "Đội ngũ",
+		"tools": "",
+		"blog": "Blog",
+		"explorer": "Trình Duyệt",
+		"language": "Ngôn Ngữ"
+	},
+	"shome": {
+		"title": "Hợp Đồng Thông Minh cho Các Doanh Nghiệp Thông Minh",
+		"subtitle": ""
+	},
+	"sabout": {
+		"desc": ""
+	},
+	"sfeatures": {
+		"title1": "Sirius bao gồm các tính năng blockchain 2.0 ngay từ ban đầu, để tạo thuận lợi cho việc triển khai các ứng dụng phi tập trung.",
+		"subtitle1": "Các hợp đồng thông minh có thể được sử dụng để tạo ra một loạt các ứng dụng, từ các cơ sở dữ liệu phi tập trung đơn giản đến tất cả các tổ chức tự quản. Các ứng dụng phi tập trung, chạy trên đầu mạng Sirius, được hỗ trợ bởi ‘gas’, như là một khoản chi phí cho thời gian xử lý được sử dụng. Các hợp đồng thông minh được thực hiện bởi EVM, lần đầu tiên được nhìn thấy trên mạng Ethereum. Vì đã có nhiều ngôn ngữ được biên dịch sang bytecode cho môi trường này, có rất nhiều ứng dụng và thông tin có sẵn từ ngày đầu tiên, làm cho trải nghiệm người dùng được sắp xếp hợp lý và dễ tiếp cận.",
+		"title2": "Thân thiện với doanh nghiệp và người dùng",
+		"subtitle2": "Sự phức tạp của việc viết và triển khai các hợp đồng thông minh an toàn là một rào cản đối cho tính hữu dụng quá lâu của chính nó. Sirius sẽ giải quyết vấn đề này bằng cách tích hợp một trình hướng dẫn hợp đồng thông minh vào phần mềm ví của Sirius Core. Điều này sẽ làm cho các doanh nghiệp nhỏ có thể triển khai các hợp đồng thông minh mà không phải thuê thêm nhân viên, và cho các doanh nghiệp lớn hơn tiết kiệm thời gian và tiền bạc. Đối với người dùng nói chung nó sẽ có nghĩa là sức mạnh của các hợp đồng thông minh cuối cùng cũng được đưa vào tay họ."
+	},
+	"steam": {
+		"mtitle": "Đội Ngũ",
+		"msubtitle": "Đội Ngũ Chính",
+		"etitle": "Đội Ngũ Mở Rộng",
+		"mrtitle": "Đội Ngũ Tiếp Thị",
+		"member1": "Andreas Lepidis",
+		"member2": "Iolar Demartini Junior",
+		"member3": "Mischa Wiedouw",
+		"member4": "Axel Karlsson",
+		"member6": "Mara McLean",
+		"member7": "David Clutter",
+		"member8": "Nicholas Xie",
+		"member9": "Pieter Botha",
+		"member10": "KJ",
+		"member11": "Joseph Stuhlman"
+	},
+	"stools": {
+		"title": "Công Cụ",
+		"dsubtitle": "Downloads",
+		"windows": "Ví Windows",
+		"mac": "Ví MAC OS",
+		"linux": "Ví Linux",
+		"docker": "Docker",
+		"esubtitle": "Sàn Giao Dịch",
+		"msubtitle": "Vốn Hóa Thị Trường"
+	},
+	"sblog": {
+		"title": "Blog",
+		"subtitle": "Tin Tức Mới Nhất"
+	},
+	"ssubscribe": {
+		"title": "Đăng Ký Để Nhận Tin Tức Mới Nhất",
+		"email": "Nhập Email của bạn"
+	},
+	"footer": {
+		"subtitle": "Tham Gia Cộng Đồng",
+		"copy": "Bản quyền © 2018 Sirius. Đã đăng ký Bản quyền.",
+		"links1": "Chính Sách Bảo Mật"
+	},
+	"btn": {
+		"discord": "Tham Gia Discord",
+		"slack": "Tham Gia Slack",
+		"telegram": "Tham Gia Telegram",
+		"positionpaper": "Lập Trường Bản Cáo Bạch ",
+		"download": "Download",
+		"readmore": "Tìm Hiểu Thêm",
+		"subscribe": "Đăng Ký"
+	},
+	"page-privacy": {
+		"title": "Chính Sách Bảo Mật"
+	}
+}
