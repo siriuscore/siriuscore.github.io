@@ -12,10 +12,10 @@
 	},
 	"shome": {
 		"title": "Smart Contracts for Smart Businesses",
-		"subtitle": "Sirius is a smart contract platform based on Bitcoin and Ethereum's EVM. To encourage developer participation, Sirius is distributed for free among developers and blockchain enthusiasts."
+		"subtitle": "Sirius is a smart contract platform based on Bitcoin and Ethereum's EVM."
 	},
 	"sabout": {
-		"desc": "Sirius is a smart contract platform based on Bitcoin and Ethereum's EVM. To encourage developer participation, Sirius is distributed for free among developers and blockchain enthusiasts. Sirius features an initial supply of 100 million SIRX, with approximately 1% inflation per year. The technical white paper describing its new Reputation-Weighted Proof-of-Stake (RWPoS) algorithm will soon be released, which will boost transaction speed to 10000 TPS and beyond with a minimized degradation of decentralization and make 51% attacks infeasible."
+		"desc": "To encourage developer participation, Sirius is distributed for free among developers and blockchain enthusiasts. Sirius features an initial supply of 100 million SIRX, with approximately 1% inflation per year. The technical white paper describing its new Reputation-Weighted Proof-of-Stake (RWPoS) algorithm will soon be released, which will boost transaction speed to 10000 TPS and beyond with a minimized degradation of decentralization and make 51% attacks infeasible."
 	},
 	"sfeatures": {
 		"title1": "Sirius includes blockchain 2.0 features from the outset, to facilitate the deployment of decentralized applications.",
