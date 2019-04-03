@@ -1,77 +1,77 @@
 {
-	"nav": {
-		"sirius": "Sirius",
-		"home": "Página Inicial",
-		"about": "Sobre",
-		"features": "Características",
-		"team": "Equipe",
-		"tools": "Ferramentas",
-		"blog": "Blog",
-		"explorer": "Explorador de Blocos",
-		"language": "Idioma"
-	},
-	"shome": {
-		"title": "Contratos Inteligentes para Negócios Inteligentes",
-		"subtitle": "Sirius é uma plataforma de contrato inteligente baseada em Bitcoin e Ethereum EVM."
-	},
-	"sabout": {
-		"desc": "Para incentivar a participação dos desenvolvedores, a Sirius é distribuído gratuitamente entre desenvolvedores e entusiastas de blockchain. A Sirius possui um fornecimento inicial de 100 milhões de SIRX, com inflação de aproximadamente 1% ao ano. O white paper técnico descrevendo seu novo algoritmo Reputation-Weighted Proof-of-Stake (RWPoS) será lançado em breve, o que aumentará a velocidade de transação para 10000 TPS, e, além disso, minimiza a degradação da descentralização e previne 51% dos ataques."
-	},
-	"sfeatures": {
-		"title1": "Sirius inclui os recursos do Blockchain 2.0 desde o início, para facilitar a implantação de aplicativos descentralizados.",
-		"subtitle1": "Os contratos inteligentes podem ser usados para criar uma ampla gama de aplicativos, desde simples bancos de dados descentralizados até organizações descentralizadas autônomas. As aplicações descentralizadas, executadas em cima da rede Sirius, são alimentadas por ‘gás’, que é uma taxa para o tempo do processador utilizado. Os contratos inteligentes são executados pelo EVM, visto pela primeira vez na rede Ethereum. Uma vez que já existem muitos idiomas que compilam para bytecode para este ambiente, houve uma infinidade de aplicações e informações disponíveis desde o primeiro início, tornando a experiência do usuário simplificada e acessível.",
-		"title2": "Amigável a usuários e empresas.",
-		"subtitle2": "A complexidade de escrever e implantar contratos inteligentes seguros foi uma barreira para a sua utilidade por muito tempo. Sirius irá resolver isso integrando um assistente de contrato inteligente no software de carteira Sirius Core. Isso permitirá que as pequenas empresas implementem contratos inteligentes sem ter que contratar profissionais especializados, e para grandes empresas, economizar tempo e dinheiro. Para os usuários em geral, isso significa que o poder dos contratos inteligentes é finalmente colocado em suas mãos."
-	},
-	"steam": {
-		"mtitle": "Equipe",
-		"msubtitle": "Equipe Principal",
-		"etitle": "Equipe Estendida",
-		"mrtitle": "Equipe de Marketing",
-		"member1": "Andreas Lepidis",
-		"member2": "Iolar Demartini Junior",
-		"member3": "Mischa Wiedouw",
-		"member4": "Axel Karlsson",
-		"member6": "Mara McLean",
-		"member7": "David Clutter",
-		"member8": "Nicholas Xie",
-		"member9": "Pieter Botha",
-		"member10": "KJ",
-		"member11": "Joseph Stuhlman"
-	},
-	"stools": {
-		"title": "Ferramentas",
-		"dsubtitle": "Downloads",
-		"windows": "Carteira Windows",
-		"mac": "Carteira Mac OS",
-		"linux": "Carteira Linux",
-		"docker": "Docker",
-		"esubtitle": "Exchanges",
-		"msubtitle": "Valor de Mercado"
-	},
-	"sblog": {
-		"title": "Blog",
-		"subtitle": "Últimas Notícias"
-	},
-	"ssubscribe": {
-		"title": "Assine Nossa Newsletter",
-		"email": "Insira seu email..."
-	},
-	"footer": {
-		"subtitle": "Junte-se à comunidade!",
-		"copy": "Copyright © 2018 Sirius. Todos os direitos reservados.",
-		"links1": "Política de Privacidade"
-	},
-	"btn": {
-		"discord": "Discord",
-		"slack": "Slack",
-		"telegram": "Telegram",
-		"positionpaper": "Documento de Posição",
-		"download": "Download",
-		"readmore": "Leia Mais",
-		"subscribe": "Assinar"
-	},
-	"page-privacy": {
-		"title": "Política de Privacidade"
-	}
+  "nav": {
+    "sirius": "Sirius",
+    "home": "Página Inicial",
+    "about": "Sobre",
+    "features": "Características",
+    "team": "Equipe",
+    "tools": "Ferramentas",
+    "blog": "Blog",
+    "explorer": "Explorador de Blocos",
+    "language": "Idioma"
+  },
+  "shome": {
+    "title": "Contratos Inteligentes para Negócios Inteligentes",
+    "subtitle": "Sirius é uma plataforma de contrato inteligente baseada em Bitcoin e Ethereum EVM."
+  },
+  "sabout": {
+    "desc": "Para incentivar a participação dos desenvolvedores, a Sirius é distribuído gratuitamente entre desenvolvedores e entusiastas de blockchain. A Sirius possui um fornecimento inicial de 100 milhões de SIRX, com inflação de aproximadamente 1% ao ano. O white paper técnico descrevendo seu novo algoritmo Reputation-Weighted Proof-of-Stake (RWPoS) será lançado em breve, o que aumentará a velocidade de transação para 4300 TPS, e, além disso, minimiza a degradação da descentralização e previne 51% dos ataques."
+  },
+  "sfeatures": {
+    "title1": "Sirius inclui os recursos do Blockchain 2.0 desde o início, para facilitar a implantação de aplicativos descentralizados.",
+    "subtitle1": "Os contratos inteligentes podem ser usados para criar uma ampla gama de aplicativos, desde simples bancos de dados descentralizados até organizações descentralizadas autônomas. As aplicações descentralizadas, executadas em cima da rede Sirius, são alimentadas por ‘gás’, que é uma taxa para o tempo do processador utilizado. Os contratos inteligentes são executados pelo EVM, visto pela primeira vez na rede Ethereum. Uma vez que já existem muitos idiomas que compilam para bytecode para este ambiente, houve uma infinidade de aplicações e informações disponíveis desde o primeiro início, tornando a experiência do usuário simplificada e acessível.",
+    "title2": "Amigável a usuários e empresas.",
+    "subtitle2": "A complexidade de escrever e implantar contratos inteligentes seguros foi uma barreira para a sua utilidade por muito tempo. Sirius irá resolver isso integrando um assistente de contrato inteligente no software de carteira Sirius Core. Isso permitirá que as pequenas empresas implementem contratos inteligentes sem ter que contratar profissionais especializados, e para grandes empresas, economizar tempo e dinheiro. Para os usuários em geral, isso significa que o poder dos contratos inteligentes é finalmente colocado em suas mãos."
+  },
+  "steam": {
+    "mtitle": "Equipe",
+    "msubtitle": "Equipe Principal",
+    "etitle": "Equipe Estendida",
+    "mrtitle": "Equipe de Marketing",
+    "member1": "Andreas Lepidis",
+    "member2": "Iolar Demartini Junior",
+    "member3": "Mischa Wiedouw",
+    "member4": "Axel Karlsson",
+    "member6": "Mara McLean",
+    "member7": "David Clutter",
+    "member8": "Nicholas Xie",
+    "member9": "Pieter Botha",
+    "member10": "KJ",
+    "member11": "Joseph Stuhlman"
+  },
+  "stools": {
+    "title": "Ferramentas",
+    "dsubtitle": "Downloads",
+    "windows": "Carteira Windows",
+    "mac": "Carteira Mac OS",
+    "linux": "Carteira Linux",
+    "docker": "Docker",
+    "esubtitle": "Exchanges",
+    "msubtitle": "Valor de Mercado"
+  },
+  "sblog": {
+    "title": "Blog",
+    "subtitle": "Últimas Notícias"
+  },
+  "ssubscribe": {
+    "title": "Assine Nossa Newsletter",
+    "email": "Insira seu email..."
+  },
+  "footer": {
+    "subtitle": "Junte-se à comunidade!",
+    "copy": "Copyright © 2018 Sirius. Todos os direitos reservados.",
+    "links1": "Política de Privacidade"
+  },
+  "btn": {
+    "discord": "Discord",
+    "slack": "Slack",
+    "telegram": "Telegram",
+    "positionpaper": "Documento de Posição",
+    "download": "Download",
+    "readmore": "Leia Mais",
+    "subscribe": "Assinar"
+  },
+  "page-privacy": {
+    "title": "Política de Privacidade"
+  }
 }
