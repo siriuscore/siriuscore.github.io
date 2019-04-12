@@ -19,7 +19,7 @@ jQuery(document).ready(function () {
 	}
 	var i18nextoptions = {
 		debug: false,
-		whitelist: ['en', 'pt-BR'],
+		whitelist: ['en', 'pt_BR'],
 		fallbackLng: 'en',
 		detection: lngDetectionOption,
 		backend: {
