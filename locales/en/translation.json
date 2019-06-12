@@ -15,7 +15,7 @@
     "subtitle": "Sirius is a next-generation smart contract platform based on Bitcoin and Ethereum's EVM."
   },
   "sabout": {
-    "desc": "The Sirius protocol implements the Reputation-Weighted Proof-of-Stake (RWPoS) algorithm, which features transaction speeds of over 4300 TPS, while preserving decentralization and rendering 51% attacks infeasible. To encourage developer participation, Sirius is distributed for free among developers and blockchain enthusiasts. Sirius features an initial supply of 100 million SIRX, with a small amount of inflation each year."
+    "desc": "The Sirius protocol implements the Reputation-Weighted Proof-of-Stake (RWPoS) algorithm, which features transaction speeds of over 4300 TPS, while preserving decentralization and rendering 51% attacks infeasible. To achieve this, aspiring Sirius block producers have to earn reputation by being consistently reliable for a long period of time. To encourage developer participation, Sirius is distributed for free among developers and blockchain enthusiasts."
   },
   "sfeatures": {
     "title1": "Sirius includes blockchain 2.0 features from the outset, to facilitate the deployment of decentralized applications.",
